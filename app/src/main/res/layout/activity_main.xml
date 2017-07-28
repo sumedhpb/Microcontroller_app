@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sumedh.microcontroller.Main3Activity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="331dp"
+        android:onClick="ClientSocket"
+        android:text="Send data" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="160dp"
+        android:layout_height="61dp"
+        android:layout_x="197dp"
+        android:layout_y="335dp"
+        android:onClick="receive"
+        android:text="Receive data" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="291dp"
+        android:layout_height="71dp"
+        android:layout_x="29dp"
+        android:layout_y="175dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="287dp"
+        android:layout_height="158dp"
+        android:layout_x="27dp"
+        android:layout_y="11dp"
+        android:text="List of Devices" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="122dp"
+        android:layout_height="77dp"
+        android:layout_x="27dp"
+        android:layout_y="413dp"
+        android:text="Group Owner Status" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="261dp"
+        android:onClick="connectDevices"
+        android:text="Go" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_x="153dp"
+        android:layout_y="263dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter IP address" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="182dp"
+        android:layout_height="100dp"
+        android:layout_x="188dp"
+        android:layout_y="404dp"
+        android:text="Connection Status" />
+
+</AbsoluteLayout>

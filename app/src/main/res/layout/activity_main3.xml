@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sumedh.microcontroller.Main3Activity">
+    <TextView
+    android:id="@+id/textView3"
+    android:layout_width="342dp"
+    android:layout_height="459dp"
+    android:layout_x="25dp"
+    android:layout_y="28dp"
+    android:maxLines="10000"
+    android:scrollbars="vertical"
+    android:gravity="bottom"
+    tools:layout_editor_absoluteX="55dp"
+    tools:layout_editor_absoluteY="89dp" />
+
+</AbsoluteLayout>
