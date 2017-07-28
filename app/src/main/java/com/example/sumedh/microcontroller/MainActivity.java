@@ -20,7 +20,7 @@ import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.util.Enumeration;
 
-
+//MainActivity
 public class MainActivity extends AppCompatActivity {
     private final IntentFilter mintentFilter = new IntentFilter();
     public static WifiP2pManager mManager;
